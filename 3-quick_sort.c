@@ -22,12 +22,12 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * bis_quick_sort - Main function to launch the algo
+ * bis_quick_sort - Fonction principale pour lancer l'algo
  *
- *@array: Array to sort
- *@low: First value of the array
- *@high: Last value of the array
- *@size: Size of the array
+ *@array: Tableau à trier
+ *@low: Premmière valeur du tableau
+ *@high: Dernière valeur du tableau
+ *@size: Taille du tableau
  */
 void bis_quick_sort(int *array, int low, int high, size_t size)
 {
@@ -42,12 +42,12 @@ void bis_quick_sort(int *array, int low, int high, size_t size)
 }
 
 /**
- * partition - Do the partition
+ * partition - Construire la partition
  *
- *@a: Array
- *@low: First value of the array
- *@high: Last value of the array
- *@size: Size of the array
+ *@a: tableau
+ *@low: premmière valeur du tableau
+ *@high: Dernière valeur du tableau
+ *@size: Taille du tableau
  *Return: i
  */
 int partition(int a[], int low, int high, size_t size)
@@ -76,10 +76,10 @@ int partition(int a[], int low, int high, size_t size)
 }
 
 /**
- * swap - Function that swap both number
+ * swap - Fonction qui échange les deux numéros
  *
- *@a: First number to swap
- *@b: Second number to swap
+ *@a: Premier numéro à échanger
+ *@b: Second numéro à échanger
  */
 void swap(int *a, int *b)
 {
