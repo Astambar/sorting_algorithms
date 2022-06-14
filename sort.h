@@ -45,6 +45,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 /*personal function */
 void swaps_node(listint_t *left, listint_t *right);
+void swap(int *a, int *b);
+void bis_quick_sort(int *array, int low, int high, size_t size);
 
 
 #endif /* SORT_H */

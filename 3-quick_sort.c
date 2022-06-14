@@ -18,26 +18,26 @@ void quick_sort(int *array, size_t size)
 	if (!array || size < 2)
 		return;
 
-	a_quick_sort(array, low, high, size);
+	bis_quick_sort(array, low, high, size);
 }
 
 /**
- * a_quick_sort - Main function to launch the algo
+ * bis_quick_sort - Main function to launch the algo
  *
  *@array: Array to sort
  *@low: First value of the array
  *@high: Last value of the array
  *@size: Size of the array
  */
-void a_quick_sort(int *array, int low, int high, size_t size)
+void bis_quick_sort(int *array, int low, int high, size_t size)
 {
 	int pi;
 
 	if (low < high)
 	{
 		pi = partition(array, low, high, size);
-		a_quick_sort(array, low, pi - 1, size);
-		a_quick_sort(array, pi + 1, high, size);
+		bis_quick_sort(array, low, pi - 1, size);
+		bis_quick_sort(array, pi + 1, high, size);
 	}
 }
 
