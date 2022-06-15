@@ -17,7 +17,7 @@ void insertion_sort_list(listint_t **list)
 	if (list == NULL || !*list || !(*list)->next)
 		return;
 
-	for (plist = *list ;plist; plist = plist->next)
+	for (plist = *list; plist; plist = plist->next)
 		if (plist->prev && plist->prev->n > plist->n)
 		{
 			pTemplist = plist;

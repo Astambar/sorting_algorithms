@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * quick_sort - function that sorts an array of integers
- * in ascending order using the Quick sort algorithm
+ * quick_sort - fonction qui trie un tableau d'entiers
+ * par ordre croissant à l'aide de l'algorithme de tri rapide
  *
  * @array: array to sort
  * @size: size of the array
